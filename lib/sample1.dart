@@ -11,6 +11,9 @@ class Sample extends StatelessWidget {
         backgroundColor: Colors.deepPurpleAccent,
         foregroundColor: Colors.white,
         actions: [Icon(Icons.settings)],
+        title: Text("Your Profile"),
+        centerTitle: false,
+
       ),
       body: Container(
         width: double.infinity,
