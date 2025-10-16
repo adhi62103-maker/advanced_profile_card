@@ -53,12 +53,14 @@ class Sample extends StatelessWidget {
                   width: double.infinity,
                   child: Card(
                     color: Colors.grey,
-                    child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    child: Row(
                       children: [
                         Text(
                           "vicassudani909@gmail.com",
                           style: TextStyle(color: Colors.black),
-                        ),Icon(Icons.email)
+                        ),
+                        SizedBox(width: 140,),
+                        Icon(Icons.email)
                       ],
                     ),
                   ),
